@@ -1,0 +1,8 @@
+1) PCs that have a Standard deviation around or > 1
+
+2) PCs that take for the cumulative variance to be around 0.8
+
+----------------------------
+longest vectors, indicates that they explain more variance
+
+similar direction, indicates that they are highly correlated with each other
