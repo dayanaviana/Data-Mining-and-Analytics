@@ -22,7 +22,8 @@ Sw <- sqrt(n1*n2*(N+1)/12)
 
 #4) W Statistics
 data <- c(x,y)
-data.rank <- rank(data)
+data.rank <- rank(data, ties.method = "average")
+data.rank.sort <- sort(data.rank)
 x.rank.sum <- sum(data.rank[1:length(x)])
 y.rank.sum <- sum(data.rank[length(x)+1:length(y)])
 W_statistics <- min(x.rank.sum,y.rank.sum)
