@@ -27,5 +27,12 @@ calcHstatistic <- function(x){
 
 
 kruskal.test(x,g)
+
+
+#####################################################################
+x1 <- c(6,4,2,2,1,4,5,6,5,6,6,5,7,8,7)
+g1 <- c(1,1,1,1,1,2,2,2,2,2,3,3,3,3,3)
+kruskal.test(x1,g1)
 #p-value = 0.02185
+#alpha = 5.8039???
 #Since the p-value is less than commonly used significance levels, the null hypothesis should be rejected. In other words, one or more of the samples has a significantly different mean.
