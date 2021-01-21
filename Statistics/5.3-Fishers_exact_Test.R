@@ -47,7 +47,7 @@ fisher.test(orangejuice.table, alternative = "greater")
 
 #Since the p-value (0.1849) is greater than the commonly used significance levels (0.1, 0.05), insufficient evidence exists to reject the null hypothesis . Thus, the statistic students were justified in being skeptical of their instructor's alleged ability to distinguish an orange juice sample coming from a can versus another sample coming from a bottle.
 
-#3) Two-sided Test
+#3) Two-sided Test: When prior beliefs does not existS
 # Ha : p_can != p_bottle
 fisher.test(orangejuice.table,alternative = "two.sided")
 fisher.test(orangejuice.table)
