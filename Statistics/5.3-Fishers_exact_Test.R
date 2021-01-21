@@ -1,4 +1,4 @@
-# Fisher's exact test is a method of calculating the exact p-value for contingency tables.
+# Fisher's Exact Test is a method of calculating the exact p-value for contingency tables.
 
 #2x2 contingency table
 #           Container
